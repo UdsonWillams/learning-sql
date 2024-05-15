@@ -1,0 +1,11 @@
+Modelo de comando DISTINCT em tabelas sql.
+
+DISTINCT
+Retorna valores distintos de acordo com a query feita, ex.:
+SELECT DISTINCT cliente FROM tabelapedidos;
+Esse comando quer dizer basicamente:
+selecione dinstintamente o cliente de tabelapedidos
+
+Acho que ele sempre vem colado ao select
+Select Distinct client from db where nome = 'udson';
+

@@ -1,0 +1,7 @@
+Modelo de comando CREATE DATABASE em sql.
+
+CREATE DATABASE BibliotecaDB;
+Neste exemplo, "BibliotecaDB" é o nome do banco de dados que estamos criando. Este comando cria o banco de dados como uma entidade de nível superior que conterá todos os objetos relacionados à biblioteca.
+
+INICIAALMENTE criamos o banco de dados para a partir dai criar as tabelas.
+

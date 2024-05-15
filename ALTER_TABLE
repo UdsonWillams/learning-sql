@@ -1,0 +1,20 @@
+Modelo de comando ALTER TABLE em tabelas sql.
+
+Entendendo o Comando ALTER
+
+O comando ALTER é usado para alterar a estrutura de um objeto existente em um banco de dados. Ele pode ser usado para adicionar, modificar ou excluir colunas em uma tabela existente. Também pode ser usado para adicionar e soltar várias restrições em uma tabela existente.
+
+Aqui está a sintaxe básica do comando ALTER:
+ALTER TABLE nome_da_tabela
+ADD nome_da_coluna tipo_de_dado;
+
+Por exemplo, para adicionar uma coluna chamada "Idade" à tabela "Estudantes", você usaria:
+ALTER TABLE Estudantes
+ADD Idade INT;
+
+Para excluir uma coluna de uma tabela, usamos a sintaxe:
+ALTER TABLE nome_da_tabela
+DROP COLUMN nome_da_coluna;
+
+Praticar o uso dos comandos DROP e ALTER em SQL vai te ajudar a se sentir mais confortável ao lidar com tabelas e outros objetos em um banco de dados.
+

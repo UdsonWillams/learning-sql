@@ -1,0 +1,10 @@
+Modelo de comando WHERE em tabelas sql.
+
+SELECT * FROM tabelafornecedores WHERE país_de_origem = 'China';
+
+Continuação dos valores acima.
+WHERE = COMANDO QUE PEDE UMA ESPECIFICAÇÃO DE ONDE VIRAM OS DADOS DO CAMPO QUE SERÁ PASSADO ESPECIFICO.
+país_de_origem = CAMPO QUE SERÁ PASSADO ESPECIFICO.
+'China' = VALOR QUE SERÁ PESQUISADO.
+Esse comando pega todos os valores da tabelafornecedores aonde o pais de origem for China!
+

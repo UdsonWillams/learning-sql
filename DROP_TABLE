@@ -1,0 +1,19 @@
+Modelo de comando DROP TABLE em tabelas sql.
+
+Entendendo o Comando DROP
+
+O comando DROP em SQL é usado para excluir um objeto do banco de dados. Podemos excluir índices, tabelas, bancos de dados, usuários, funções, entre outros.
+
+Aqui está a sintaxe básica do comando DROP:
+DROP tipo_do_objeto nome_do_objeto;
+
+Por exemplo, para excluir uma tabela chamada "Estudantes", você usaria:
+DROP TABLE Estudantes;
+
+Agora se deseja excluir um banco de dados chamado “Colégio São Paulo”, seria assim:
+DROP DATABASE Colégio_São_Paulo;
+
+E caso queira excluir um esquema chamado “Turno da manhã”, contido em um banco de dados, fica assim:
+DROP SCHEMA Turno_da_manhã;
+
+

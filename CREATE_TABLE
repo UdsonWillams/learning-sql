@@ -1,0 +1,26 @@
+Modelo de comando CREATE TABLE em tabelas sql.
+
+CREATE TABLE tabelaclientes (
+  ID_Cliente INT PRIMARY KEY,
+  Nome_Cliente VARCHAR (250),
+  Informacoes_de_Contato VarChar (250)
+  );
+
+A ideia por trás desse comando é:
+
+Crie a tabela-clientes com os valores
+id, sendo ele int e chave primaria,
+nome-cliente sendo ele varchar com 250 posicoes,
+infor-de-contato sendo ele varchar com 250 posicoes,
+
+
+Você recebeu a tarefa de criar uma nova rede social para celebridades. Seu primeiro desafio é criar uma tabela para armazenar as informações de cada perfil que inclui o nome da celebridade, a data de criação do perfil e o número total de seguidores. Você decide utilizar o comando CREATE para isso.
+
+Qual é a maneira correta de usar o comando CREATE para criar essa tabela?
+\/\/\/\/\/
+CREATE TABLE Perfil (
+Nome VARCHAR(50),
+DataCriacao DATE,
+TotalSeguidores INTEGER
+);
+

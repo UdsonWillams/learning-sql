@@ -1,0 +1,26 @@
+PRIMARY KEY = A "Primary Key" (Chave Primária) é um conceito fundamental no contexto de bancos de dados. Ela desempenha um papel crucial na organização e estruturação dos dados em um banco de dados relacional.
+
+A Primary Key é um campo ou conjunto de campos em uma tabela de banco de dados que serve para identificar de forma exclusiva cada registro nessa tabela. Em outras palavras, é o meio pelo qual o sistema de gerenciamento de banco de dados (SGBD) garante que cada linha de dados seja única e possa ser acessada de forma eficiente.
+
+Características da Primary Key:
+
+    Unicidade: Cada valor na coluna de chave primária deve ser único em relação a todos os outros valores na mesma coluna. Isso garante que nenhum registro duplicado seja inserido na tabela.
+    Não nulo: A chave primária não pode conter valores nulos. Cada registro deve ter um valor na coluna da chave primária.
+    Eficiência de pesquisa: A chave primária é usada para acelerar a pesquisa de registros no banco de dados. Os SGBDs criam índices automaticamente nas colunas de chave primária para otimizar a recuperação de dados.
+
+Por que a Primary Key é importante?
+
+A chave primária é fundamental para manter a integridade dos dados e garantir que as operações de consulta e atualização sejam eficientes. Veja:
+
+    Identificação única: Ela permite identificar cada registro de forma única, o que é essencial em muitos cenários de negócios. Por exemplo, em um banco de dados de clientes, a chave primária pode ser o número de identificação de cada cliente.
+    Integridade referencial: A chave primária é usada em relacionamentos entre tabelas para garantir a integridade referencial. Isso significa que os registros relacionados em tabelas diferentes podem ser conectados de maneira confiável.
+    Eficiência: Como mencionado anteriormente, as chaves primárias são indexadas automaticamente pelos SGBDs, tornando as consultas mais rápidas e eficientes.
+
+Exemplos de Primary Key:
+
+    Em uma tabela de "Clientes", o número de identificação de cada cliente pode ser a chave primária.
+    Em uma tabela de "Pedidos", um número de pedido exclusivo pode servir como a chave primária.
+    Em uma tabela de "Funcionários", o número de identificação de cada funcionário pode ser a chave primária.
+
+Em resumo, a chave primária desempenha um papel central na estrutura de um banco de dados relacional, garantindo a integridade dos dados e possibilitando a recuperação eficiente das informações. É um conceito essencial para qualquer pessoa que trabalhe com bancos de dados e sistemas de informação.
+

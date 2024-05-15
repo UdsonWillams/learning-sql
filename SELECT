@@ -1,0 +1,49 @@
+Modelo de comando SELECT em tabelas sql.
+
+SELECT * FROM tabelafornecedores;
+Primeiro comando rodado na plataforma.
+
+SELECT = SELECIONE
+* = TUDO / Valor da linguagem para todos os valores
+FROM = COMANDO QUE PEDE UMA ESPECIFICAÇÃO DE ONDE VIRAM OS DADOS
+tabelafornecedores = ESPECIFICAÇÃO DE ONDE VIRAM OS DADOS(Nome da tabela que criamos para o nosso db.)
+; = Excencial para colocarmos para delimitar a informação que queremos. 
+
+SELECT * FROM tabelafornecedores WHERE país_de_origem = 'China';
+
+Continuação dos valores acima.
+WHERE = COMANDO QUE PEDE UMA ESPECIFICAÇÃO DE ONDE VIRAM OS DADOS DO CAMPO QUE SERÁ PASSADO ESPECIFICO.
+país_de_origem = CAMPO QUE SERÁ PASSADO ESPECIFICO.
+'China' = VALOR QUE SERÁ PESQUISADO.
+Esse comando pega todos os valores da tabelafornecedores aonde o pais de origem for China!
+
+######################
+O SELECT TAMBÉM PODE INSERIR VALORES NAS TABELAS, JUNTO A CHAVE INSERT, EX.:
+
+INSERT INTO tabelapedidosgold
+(id_pedido_gold,
+ data_do_pedido_gold,
+ status_gold,
+ total_do_pedido_gold,
+ cliente_gold,
+ data_de_envio_estimada_gold)
+ SELECT 
+ id,
+ data_do_pedido,
+ status,
+ total_do_pedido,
+ cliente,
+ data_de_envio_estimada
+ FROM tabelapedidos
+ WHERE total_do_pedido >= 400;
+
+A sintaxe basica desse exemplo é essa:
+INSERT INTO tabela_destino (coluna1, coluna2, ... )
+SELECT coluna1, coluna2, ... 
+FROM tabela_origem
+WHERE condição;
+
+Aqui, tabela_destino é a tabela onde você quer inserir os dados e tabela_origem é a tabela onde os dados estão originalmente. As coluna1, coluna2,... precisam ser as mesmas tanto na tabela de destino quanto na de origem. A cláusula WHERE é opcional e permite especificar condições para a seleção dos dados.
+
+
+

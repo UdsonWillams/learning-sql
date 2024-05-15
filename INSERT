@@ -1,0 +1,30 @@
+Modelo de comando INSERT em tabelas sql.
+
+INSERT INTO tabelaclientes(
+  id_cliente,
+  nome_cliente,
+  informacoes_de_contato,
+  endereco_cliente
+) VALUES (
+  '1', 'Ana Silva', 'teste@mail.com', 'rua-taltal-n1'
+);
+
+
+
+FORMATO PARA INSERÇÃO DE MAIS DADOS DE UMA VEZ COM O INSERT.
+
+INSERT INTO tabelaclientes
+(id_cliente,
+ nome_cliente,
+ informacoes_de_contato,
+ endereco_cliente)
+ VALUES
+ ('2', 'João Santos', 'joao.santos@provedor.com', 'Rua dos pinheiros, 25'),
+ ('3', 'Maria Fernandes', 'maria.fernandes@email.com', 'Rua Santo Antonio, 10'),
+ ('4','Carlos Pereira', 'carlos.pereira@email.com', 'Avenida rio, 67');
+ 
+ BASICAMENTE, ADICIONAMOS MAIS 1 PARENTESES E CONTINUAMOS A ADIÇÃO DOS VALORES.
+ 
+ TAMBÉM PODEMOS INSERIR DADOS UTILIZANDO O COMANDO SELECT, COLOQUEI NO ARQUIVO ESPECIFICO DO SELECT COMO É O PROCESSO.
+ 
+
